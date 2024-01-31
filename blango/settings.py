@@ -53,6 +53,7 @@ class Dev(Configuration):
         'django.contrib.staticfiles',
         'blog',
         'debug_toolbar',
+        'rest_framework',
     ]
 
     INTERNAL_IPS = ["192.168.11.179"]
